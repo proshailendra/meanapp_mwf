@@ -1190,7 +1190,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var GlobalConfig = (function () {
     function GlobalConfig() {
-        this.apibaseAddress = 'http://localhost:1300/api';
+        this.apibaseAddress = 'https://dntmeanmwf.herokuapp.com/api';
         this.cartName = "myCart";
     }
     GlobalConfig = __decorate([

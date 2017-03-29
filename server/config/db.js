@@ -1,4 +1,4 @@
 const mongoose = require("mongoose");
-
-const connection = mongoose.connect('mongodb://localhost/mean_9pm');
+var strCon=process.env.MONGODB_URI;
+var connection = mongoose.connect(strCon);
 module.exports = connection;
